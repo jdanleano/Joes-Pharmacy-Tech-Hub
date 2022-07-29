@@ -26,152 +26,253 @@
     <!-- Cards -->
     <div class="d-flex justify-content-center row m-5">
         <div class="card bg-dark text-light m-2" style="width: 25rem;">
-            <div class="card-body">
-                <h5 class="card-title">Pharmacy Help Desk #s</h5>
-                <p class="card-text">A list of the most common help desk numbers</p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#helpDeskModal">
-                    Click Here
-                </button>
+            <div class="container d-flex flex-row">
+                <div class="img-cont container d-flex align-items-center justify-content-center">
+                    <img src="./assets/images/help-desk-icon.png"
+                        class="img-fluid d-flex align-items-center justify-content-center"
+                        alt="A headset with a question mark">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Pharmacy Help Desk #s</h5>
+                    <p class="card-text">A list of the most common help desk numbers</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#helpDeskModal">
+                        Click Here
+                    </button>
+                </div>
             </div>
         </div>
+
         <div class="card bg-dark text-light m-2" style="width: 25rem;">
-            <div class="card-body">
-                <h5 class="card-title">Insurance Search</h5>
-                <p class="card-text">Link to insurance search tools</p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#insModal">
-                    Click Here
-                </button>
+            <div class="container d-flex flex-row">
+                <div class="img-cont container d-flex align-items-center justify-content-center">
+                    <img src="./assets/images/ins-icon.png"
+                        class="img-fluid d-flex align-items-center justify-content-center"
+                        alt="A headset with a question mark">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Insurance Resources</h5>
+                    <p class="card-text">Link to insurance tools like eligibility and PA requests</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#insModal">
+                        Click Here
+                    </button>
+                </div>
             </div>
         </div>
+
         <div class="card bg-dark text-light m-2" style="width: 25rem;">
-            <div class="card-body">
-                <h5 class="card-title">Common Coupon Links</h5>
-                <p class="card-text">Links to the most common manufacturer copay cards</p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#copayCardModal">
-                    Click Here
-                </button>
+            <div class="container d-flex flex-row">
+                <div class="img-cont container d-flex align-items-center justify-content-center">
+                    <img src="./assets/images/drug-icon.png"
+                        class="img-fluid d-flex align-items-center justify-content-center"
+                        alt="A headset with a question mark">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Pharmaceutical Resources</h5>
+                    <p class="card-text">Link to pharmaceutical tools like wholesale ordering and drug references</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#drugModal">
+                        Click Here
+                    </button>
+                </div>
             </div>
         </div>
+        
         <div class="card bg-dark text-light m-2" style="width: 25rem;">
-            <div class="card-body">
-                <h5 class="card-title">Message Templates</h5>
-                <p class="card-text">Templates for doctor and patient contact</p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#templateModal">
-                    Click Here
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modals -->
-    <!-- Help Desk Numbers -->
-    <div class="modal" id="helpDeskModal" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Pharmacy Help Desk #s</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+            <div class="container d-flex flex-row">
+                <div class="img-cont container d-flex align-items-center justify-content-center">
+                    <img src="./assets/images/coupon-icon.png"
+                        class="img-fluid d-flex align-items-center justify-content-center"
+                        alt="A headset with a question mark">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Common Coupon Links</h5>
+                    <p class="card-text">Links to the most common manufacturer copay cards</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#copayCardModal">
+                        Click Here
                     </button>
                 </div>
-                <div class="d-flex justify-content-center modal-body">
-                    <ul class="list-group text-center">
-                        <li class="list-group-item">Express Scripts</li>
-                        <li class="list-group-item">CVS Caremark</li>
-                        <li class="list-group-item">IngenioRx</li>
-                        <li class="list-group-item">Aetna</li>
-                        <li class="list-group-item">OptumRx</li>
-                        <li class="list-group-item">Prime Therapeutics</li>
-                    </ul>
-                    <ul class="list-group">
-                        <li class="list-group-item">800-922-1557</li>
-                        <li class="list-group-item">800-364-6331</li>
-                        <li class="list-group-item">833-262-1726</li>
-                        <li class="list-group-item">800-238-6279</li>
-                        <li class="list-group-item">877-889-6510</li>
-                        <li class="list-group-item">800-821-4795</li>
-                    </ul>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
             </div>
         </div>
-    </div>
 
-    <!-- Insurance Searches -->
-    <div class="modal" id="insModal" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Insurance Search</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+        <div class="card bg-dark text-light m-2" style="width: 25rem;">
+            <div class="container d-flex flex-row">
+                <div class="img-cont container d-flex align-items-center justify-content-center">
+                    <img src="./assets/images/chat-icon.png"
+                        class="img-fluid d-flex align-items-center justify-content-center"
+                        alt="A headset with a question mark">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Message Templates</h5>
+                    <p class="card-text">Templates for doctor and patient contact</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#templateModal">
+                        Click Here
                     </button>
                 </div>
-                <div class="modal-body">
-                    <ul class="list-group text-center">
-                        <li class="list-group-item"><a href="https://secure.erxnetwork.com/logon.aspx?ReturnUrl=%2f"
-                                target="_blank">ERx Network</a></li>
-                        <li class="list-group-item"><a href="https://prc.express-scripts.com/frontend/prcportal/#/index"
-                                target="_blank">Express Scripts PRC</a></li>
-                        <li class="list-group-item"><a href="https://epaces.emedny.org/" target="_blank">eMedNY
-                                ePACES</a></li>
-                    </ul>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+        <!-- Modals -->
+        <!-- Help Desk Numbers -->
+        <div class="modal" id="helpDeskModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Pharmacy Help Desk #s</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="d-flex justify-content-center modal-body">
+                        <ul class="list-group text-center">
+                            <li class="list-group-item">Aetna</li>
+                            <li class="list-group-item">CVS Caremark</li>
+                            <li class="list-group-item">Express Scripts</li>
+                            <li class="list-group-item">IngenioRx</li>
+                            <li class="list-group-item">OptumRx</li>
+                            <li class="list-group-item">Prime Therapeutics</li>
+                        </ul>
+                        <ul class="list-group">
+                            <li class="list-group-item">800-238-6279</li>
+                            <li class="list-group-item">800-364-6331</li>
+                            <li class="list-group-item">800-922-1557</li>
+                            <li class="list-group-item">833-262-1726</li>
+                            <li class="list-group-item">877-889-6510</li>
+                            <li class="list-group-item">800-821-4795</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Coupon Links -->
-    <div class="modal" id="copayCardModal" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Common Coupon Links</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Under Construction</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- Insurance Resources -->
+        <div class="modal" id="insModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Insurance Resources</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-group text-center">
+                            <li class="list-group-item"><a href="https://portal.copays.org/#/login"
+                                    target="_blank">Copays.org - Medication Grant Application</a></li>
+                            <li class="list-group-item"><a href="https://account.covermymeds.com/"
+                                    target="_blank">CoverMyMeds - Prior Authorization Management</a></li>
+                            <li class="list-group-item"><a href="https://epaces.emedny.org/" target="_blank">eMedNY
+                                    ePACES -
+                                    NY Medicaid Eligibility Search</a></li>
+                            <li class="list-group-item"><a href="https://secure.erxnetwork.com/logon.aspx?ReturnUrl=%2f"
+                                    target="_blank">ERx Network - General Eligibility Search</a></li>
+                            <li class="list-group-item"><a
+                                    href="https://prc.express-scripts.com/frontend/prcportal/#/index"
+                                    target="_blank">Express Scripts PRC - Express Scripts Eligibility Search</a></li>
+                            <li class="list-group-item"><a href="https://www.healthwellfoundation.org/"
+                                    target="_blank">Healthwell Foundation - Medication Grant Application</a></li>
+                            <li class="list-group-item"><a href="https://pharmacyportal.panfoundation.org/"
+                                    target="_blank">PAN Foundation - Medication Grant Application</a></li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Contact Templates -->
-    <div class="modal" id="templateModal" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Templates for doctor and patient contact</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Under Construction</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- Drug Templates -->
+        <div class="modal" id="drugModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Pharmaceutical Ordering and References</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-group text-center">
+                            <li class="list-group-item"><a href="https://kinrayweblink.cardinalhealth.com/login"
+                                    target="_blank">Kinray - Pharmaceutical Wholesaler</a></li>
+                            <li class="list-group-item"><a
+                                    href="https://connect.mckesson.com/portal/site/smo/template.LOGIN/"
+                                    target="_blank">Lexicomp - Drug Reference</a></li>
+                            <li class="list-group-item"><a
+                                    href="https://connect.mckesson.com/portal/site/smo/template.LOGIN/"
+                                    target="_blank">Mckesson - Pharmaceutical Wholesaler</a></li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-        crossorigin="anonymous"></script>
+        <!-- Coupon Links -->
+        <div class="modal" id="copayCardModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Common Coupon Links</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-group text-center">
+                            <li class="list-group-item"><a href="https://www.botoxsavingsprogram.com/enrollment"
+                                    target="_blank">Botox</a></li>
+                            <li class="list-group-item"><a href="https://www.dupixent.com/support-savings/copay-card"
+                                    target="_blank">Dupixent</a></li>
+                            <li class="list-group-item"><a href="https://www.humira.com/humira-complete/sign-up"
+                                    target="_blank">Humira</a></li>
+                            <li class="list-group-item"><a
+                                    href="https://www.otezla.com/supportplus/otezla-cost-and-copay"
+                                    target="_blank">Otezla</a></li>
+                            <li class="list-group-item"><a
+                                    href="https://www.janssencarepath.com/patient/tremfya/cost-support"
+                                    target="_blank">Tremfya</a></li>
+                            <li class="list-group-item"><a href="https://xifaxan.copaysavingsprogram.com/"
+                                    target="_blank">Xifaxan</a></li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Templates -->
+        <div class="modal" id="templateModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Templates for doctor and patient contact</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Under Construction</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

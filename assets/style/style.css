@@ -6,3 +6,7 @@ body {
 .jumbotron {
     padding: 2rem;
 }
+
+.img-cont {
+    width: 40%;
+}
