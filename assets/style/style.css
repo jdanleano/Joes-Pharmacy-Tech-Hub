@@ -1,12 +1,28 @@
 body {
-    background-color: grey;
+    background-color: #3f4b3b;
     font-family: 'Baloo 2', cursive;
 }
 
 .jumbotron {
+    background: #76a56f;
     padding: 2rem;
 }
 
 .img-cont {
     width: 40%;
+}
+
+.navbar {
+    background: #44633f;
+}
+
+.card {
+    background: #44633f;
+    border-style: solid;
+    border-color: black;
+}
+
+.btn {
+    background-color: #76a56f;
+    color: black;
 }
