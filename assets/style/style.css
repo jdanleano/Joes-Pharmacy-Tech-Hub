@@ -4,8 +4,9 @@ body {
 }
 
 .jumbotron {
-    background: #76a56f;
+    background: #5c8156;
     padding: 2rem;
+    color: white;
 }
 
 .img-cont {
@@ -13,7 +14,7 @@ body {
 }
 
 .navbar {
-    background: #44633f;
+    background: #7ba475;
 }
 
 .card {
