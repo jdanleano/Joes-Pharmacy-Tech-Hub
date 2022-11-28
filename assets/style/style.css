@@ -1,6 +1,11 @@
 body {
     background-color: #3f4b3b;
     font-family: 'Baloo 2', cursive;
+    color: black;
+}
+
+a {
+    color: black;
 }
 
 .jumbotron {
@@ -26,4 +31,24 @@ body {
 .btn {
     background-color: #76a56f;
     color: black;
+}
+
+.modal-content {
+    background-color: #44633f;
+}
+
+.modal-title {
+    color: white;
+}
+
+.modal-header {
+    border-bottom: 1px solid #00000000;
+}
+
+.modal-footer {
+    border-top: 1px solid #00000000;
+}
+
+.list-group-item {
+    background-color: #7ba475;
 }
