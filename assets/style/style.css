@@ -1,7 +1,6 @@
 body {
     background-image: url(../images/homepage2.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-repeat:repeat;
     font-family: 'Baloo 2', cursive;
     color: black;
 }
