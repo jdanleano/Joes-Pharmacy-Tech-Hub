@@ -1,5 +1,7 @@
 body {
-    background-color: #3f4b3b;
+    background-image: url(../images/homepage2.png);
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: 'Baloo 2', cursive;
     color: black;
 }
@@ -9,7 +11,9 @@ a {
 }
 
 .jumbotron {
-    background: #5c8156;
+    background-image: url(../images/homepage.png);
+    background-position: center;
+    background-size: cover;
     padding: 1rem;
     color: white;
 }
@@ -19,22 +23,23 @@ a {
 }
 
 .navbar {
-    background: #7ba475;
+    background: #ffffff5e;
 }
 
 .card {
-    background: #44633f;
+    background: #ffffff5e;
     border-style: solid;
     border-color: black;
 }
 
 .btn {
-    background-color: #76a56f;
+    background-color: #ffffff5e;
+    border-color: #ffffff5e;
     color: black;
 }
 
 .modal-content {
-    background-color: #44633f;
+    background-color: #6b6b6b;
 }
 
 .modal-title {
@@ -50,5 +55,5 @@ a {
 }
 
 .list-group-item {
-    background-color: #7ba475;
+    background-color: #707070;
 }
